@@ -1,8 +1,9 @@
 The main content of this work: landscape and flux, are calculated by Comsol 6.0 Mathematical module. 
-Here, we provide a pre-configured Comsol application file, where the parameters, variables, and modules have all been noted. Users can directly obtain the results using this file for calculation. 
+Due to the file size limit here, we cannot offer the original Comsol apllication file. Instead, we provide a Matlab model file named "Landscape_Flux_aveJss_EPR_COMSOL_model_file" here. 
+One can employ LiveLink™ for MATLAB® to open the model for calculation.
 
 Example code for calculating the dominant path is provided. 
-We should stress that, for a path, it may take 50 to 100 iterations to obtain stable results. Please pay attention to identifying the results after each calculation and eliminate obvious unreasonable results introduced by random sampling.
+We should stress that, for a path, it may take 50 to 100 iterations (even more) to obtain stable results. Please pay attention to identifying the results after each calculation and eliminate obvious unreasonable results introduced by random sampling.
 Setting up a straight line as initial preset path is the simplest.
 But combining the directions of the landscape gradient and Jss will result in a faster convergence speed.
 
