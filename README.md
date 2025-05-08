@@ -7,7 +7,7 @@ We should stress that, for a path, it may take 50 to 100 iterations (even more) 
 Setting up a straight line as initial preset path is the simplest.
 But combining the directions of the landscape gradient and Jss will result in a faster convergence speed.
 
-Average Jss/Pss and EPR are also calculated by Comsol, derivative module (surface integral). 
+Average Jss/Pss and EPR are also calculated by Comsol, Derivation module (surface integral). 
 *Manually calculating one by one is tedious. So, please use Matlab to call COMSOL for programming calculations. We provide example code that can be directly used for calculations.
 
 The difference between forward and backward cross-correlations (Δcorr) are calculated by Matlab. We provide the program here. Users can directly use it.
